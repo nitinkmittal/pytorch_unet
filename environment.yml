@@ -1,0 +1,21 @@
+name: pytorch_unet
+channels:
+  - conda-forge
+dependencies:
+  - black
+  - ipykernel
+  - isort
+  - matplotlib
+  - openpyxl
+  - nodejs
+  - numpy
+  - pandas
+  - pip
+  - pylint
+  - seaborn
+  - scikit-learn   
+  - python=3.6
+  - typing
+  - tqdm
+  - pip:
+      - pickle-mixin
